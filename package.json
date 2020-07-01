@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
-    "dev:normal": "node ./lib/server.js & http-server -c-1 -p 3000"
+    "dev:normal": "log-sync & http-server -c-1 -p 3000"
   },
   "repository": {
     "type": "git",
@@ -25,5 +25,8 @@
   },
   "devDependencies": {
     "webpack-cli": "^3.3.12"
+  },
+  "bin": {
+    "log-sync": "./lib/server.js"
   }
 }
