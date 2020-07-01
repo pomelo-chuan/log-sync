@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>log sync demo normal</title>
+    <script src="../../dist/log-sync.min.js?prefix=[log sync]&port=8080"></script>
+    <script>
+      window.onload = function () {
+        const Btn1 = document.querySelector("#btn-1");
+        Btn1.addEventListener("click", function () {
+          console.log("log");
+          console.warn("warn");
+          console.error("error");
+        });
+      };
+    </script>
+  </head>
+  <body>
+    <p>
+      hello log sync
+    </p>
+    <button id="btn-1">CLICK</button>
+  </body>
+</html>

@@ -1,0 +1,29 @@
+{
+  "name": "log-sync",
+  "version": "1.0.0",
+  "description": "log-sync",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "dev:normal": "node ./lib/server.js & http-server -c-1 -p 3000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pomelo-chuan/log-sync.git"
+  },
+  "author": "chenchuan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pomelo-chuan/log-sync/issues"
+  },
+  "homepage": "https://github.com/pomelo-chuan/log-sync#readme",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "webpack": "^4.43.0",
+    "ws": "^7.3.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.12"
+  }
+}
