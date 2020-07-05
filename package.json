@@ -1,6 +1,6 @@
 {
-  "name": "log-sync",
-  "version": "1.0.0",
+  "name": "web-log-sync",
+  "version": "0.0.1",
   "description": "log-sync",
   "main": "index.js",
   "scripts": {
