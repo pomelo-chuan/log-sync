@@ -2,8 +2,9 @@
 
 Copy your log from browser to terminal.
 
-![](./images/IMG_3980.JPG)
-![](./images/terminal.png)
+<img src="./images/IMG_3980.JPG" width="200" />
+<img src="./images/terminal.png" width="400" />
+
 
 # Getting started
 
