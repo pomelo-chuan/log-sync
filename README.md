@@ -48,7 +48,7 @@ $ log-sync -p 8080 & npm run dev
 
 ```html
 <script src="path/to/dist/log-sync.min.js?prefix=[Lovely Cat]"></script>
-``
+```
 
 # License
 
