@@ -20,11 +20,11 @@
   "homepage": "https://github.com/pomelo-chuan/log-sync#readme",
   "dependencies": {
     "chalk": "^4.1.0",
-    "webpack": "^4.43.0",
+    "webpack": "^5.75.0",
     "ws": "^7.3.0"
   },
   "devDependencies": {
-    "webpack-cli": "^3.3.12"
+    "webpack-cli": "^5.0.1"
   },
   "bin": {
     "log-sync": "./lib/server.js"
